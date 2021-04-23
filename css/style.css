@@ -87,14 +87,24 @@ nav li a {
 /* inizio main */
 main {
     width: 100%;
-    background-color: #0086ff;
+    /* background-color: #0086ff; da togliere */
+    font-size: 22px;
 }
 
 .top {
     width: 100%;
-    height: 70px; /* da togliere */
-    background-color:#abcfe7;
+    padding: 40px 0;
 }
+
+.top h2 {
+    font-size: 50px;
+    font-weight: 800;
+}
+
+main .top span {
+    color: #cbc9c8;
+}
+
 
 aside {
     width: calc(25% - 15px);

@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+header {
+    width: 100%;
+    height: 100px; /* da togliere */
+    background-color: #e579e6;
+}
+
+.jumbotron {
+    width: 100%;
+    height: 300px; /* da togliere */
+    background-color: #e1d67a;
+    margin: 20px 0;
+}
+
+/* inizio main */
+main {
+    width: 100%;
+    /* height: 400px;  da togliere */
+    background-color: #0086ff;
+}
+
+.top {
+    width: 100%;
+    height: 70px; /* da togliere */
+    background-color:#abcfe7;
+}
+
+aside {
+    width: calc(25% - 15px);
+    height: calc(400px - 70px); /* da togliere */
+    background-color:#abcfe7;
+    margin: 15px 0;
+}
+
+main section {
+    width: 50%;
+    height: calc(400px - 70px); /* da togliere */
+    background-color:#abcfe7;
+    margin: 15px;
+}
+
+.float {
+    float: left;
+}
+
+/* fine main */
+
+footer {
+    width: 100%;
+    height: 50px; /* da togliere */
+    background-color: #8701fd;
+    margin: 10px 0;
+}
+

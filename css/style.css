@@ -24,6 +24,23 @@
     border-radius: 10px;
 }
 
+.img-frmt {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main .top span, aside p, section p{
+    color: #cbc9c8;
+}
+
+.img span {
+    font-size: 23px;
+}
+
+
 /* fine common */
 
 /* inizio header */
@@ -60,11 +77,6 @@ nav li a {
     width: 100%;
     height: 683px;
     background-image: url("../img/banner.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 .jumbotron .content {
@@ -87,7 +99,6 @@ nav li a {
 /* inizio main */
 main {
     width: 100%;
-    /* background-color: #0086ff; da togliere */
     font-size: 22px;
 }
 
@@ -101,23 +112,32 @@ main {
     font-weight: 800;
 }
 
-main .top span {
-    color: #cbc9c8;
+.left .img {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/img-1.jpg");
 }
 
+main section .img {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/banner-2.jpg");
+}
+
+.right .img {
+    width: 100%;
+    height: 300px;
+    background-image: url("../img/img-3.jpg");
+}
 
 aside {
-    width: calc(25% - 15px);
-    height: calc(400px - 70px); /* da togliere */
-    background-color:#abcfe7;
-    margin: 15px 0;
+    width: calc(25% - 25px);
+    margin: 25px 0;
 }
 
 main section {
     width: 50%;
-    height: calc(400px - 70px); /* da togliere */
-    background-color:#abcfe7;
-    margin: 15px;
+    margin: 25px;
 }
 
 .float {

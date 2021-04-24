@@ -181,12 +181,12 @@ main section .img {
 
 aside {
     width: 31%;
-    /* margin: 25px 0; */
+    margin-bottom: 50px; 
 }
 
 main section {
     width: 31%;
-    margin: 0 3.5%;
+    margin: 0 3.5% 50px;
 }
 
 .float {

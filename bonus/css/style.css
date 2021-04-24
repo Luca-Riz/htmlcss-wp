@@ -36,6 +36,26 @@
     font-size: 23px;
 }
 
+.avatar {
+    height: 80px;
+    width: 100%;
+}
+
+.avatar img {
+    height: 80px;
+    vertical-align: middle;
+}
+
+.avatar div {
+    display: inline-block;
+    line-height: 80px;
+    vertical-align: middle;
+}
+
+small {
+    font-size: 70%;
+}
+
 /* attenzione più selettori */
 main .top span, aside p, section p{
     color: #cbc9c8;
